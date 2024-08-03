@@ -1,0 +1,38 @@
+:root {
+    
+    --p: #FF4222;
+    --pV1: #2922FF;
+    --pV2: #260071;
+    --white: #F5F5F6;
+    --bs-primary-rgb: 41,34,255 !important;
+    --bs-secondary-rgb: 255,66,34 !important;
+}
+
+@font-face {
+    font-family: 'Neulis-Regular';
+    src: url('../fonts/Neulis-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Neulis-Medium';
+    src: url('../fonts/Neulis-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Neulis-Bold';
+    src: url('../fonts/Neulis-Bold.otf');
+}
+
+body {
+    font-family: 'Neulis-Medium', sans-serif !important;
+    background: url('../imgs/Website-Background-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: var(--pV1);
+}
+
+.footer-bg--city {
+    background-color: #303030 ;
+}
