@@ -25,14 +25,14 @@
 
 body {
     font-family: 'Neulis-Medium', sans-serif !important;
-    background: url('../imgs/Website-Background-1.jpg');
+    background: url('../imgs/Website-Background-2.jpg');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: bottom;
     background-repeat: no-repeat;
     color: var(--pV1);
 }
 
-.footer-bg--city {
-    background-color: #303030 ;
+.font-regular {
+    font-family: 'Neulis-Regular', sans-serif !important;
 }
+
