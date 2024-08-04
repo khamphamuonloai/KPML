@@ -1,0 +1,9 @@
+{
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.inlineSuggest.showToolbar": "onHover",
+  "editor.suggest.selectionMode": "always",
+  "editor.hover.enabled": false,
+  "editor.suggest.preview": true
+}

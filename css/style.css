@@ -29,7 +29,7 @@ body {
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
-    color: var(--pV1);
+    color: var(--pV1) !important;
 }
 
 .font-regular {
@@ -40,3 +40,62 @@ body {
     padding-right: 9rem;
     padding-left: 9rem;
 }
+
+.pt-9 {
+    padding-top: 9rem;
+}
+
+.about-us-header__title {
+    top: 2rem;
+}
+
+.about-us-s2__title {
+    top: 8rem;
+    left: 2rem;
+}
+
+.about-us-s2__ic1 {
+    top: 18rem;
+    left: 5rem;
+    rotate: -15deg;
+}
+
+.about-us-s2__ic5 {
+    top: 8rem;
+    right: 28rem;
+    rotate: 15deg;
+}
+
+.about-us-s2__ic2 {
+    bottom: 0;
+    right: 5rem;
+    rotate: 15deg;
+}
+
+.about-us-s2__ic3 {
+    bottom: 20rem;
+    right: 2rem;
+    rotate: -15deg;
+}
+
+.about-us-s2__ic4 {
+    bottom: 0;
+    right: 48rem;
+    rotate: 15deg;
+}
+
+.about-us-s2__frame img {
+    object-fit: none;
+    object-position: -30rem;
+}
+
+.about-us-s2__text {
+    bottom: 2rem;
+    right: 13rem;
+}
+
+.about-us-frame2 img {
+    padding-left: 12rem;
+}
+
+
