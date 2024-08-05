@@ -98,4 +98,14 @@ body {
     padding-left: 12rem;
 }
 
+.about-us-mission__title-line {
+    background: var(--p);
+    height: 24px;
+    width: 100%;
+}
+
+.about-us-mission__title-2 {
+    text-wrap: nowrap;
+}
+
 
