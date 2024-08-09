@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chủ đề động vật</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="p-4 mb-3 pt-0 sticky-top">
+        <div class="container-fluid bg-white p-4 rounded-bottom-4 shadow-lg">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="./index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none">
+                    <img src="./imgs/kpml-logo.svg" alt="" />
+                </a>
+                <ul class="nav col-12 col-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0 text-menu">
+                    <li>
+                        <a href="./about-us.html" class="nav-link px-4 text-primary link-danger">Về chúng tôi</a>
+                    </li>
+                    <li>
+                        <a href="./chu-de.html" class="nav-link px-4 text-primary link-danger">Chủ đề</a>
+                    </li>
+                    <li>
+                        <a href="./shop.html" class="nav-link px-4 text-primary link-danger">Cửa hàng</a>
+                    </li>
+                </ul>
+
+                <a href="#" class="d-flex align-items-center ms-4">
+                    <img src="./imgs/search.svg" alt="" width="24" height="24" />
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content topic-popup--bg_1">
+                <div class="modal-header border-bottom-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="topic-popup--action p-3">
+                        <div class="space" style="height: 10rem">
+                        </div>
+                        <div class="d-flex column-gap-3 align-items-end py-4">
+                            <img src="./imgs/popup/con-trung.png" alt="" width="400px">
+                            <button type="button" class="btn btn-light video-btn" data-bs-toggle="modal"
+                                data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
+                                Phát
+                            </button>
+                            <img src="./imgs/popup/hd.svg" alt="" height="32px">
+                            <img src="./imgs/popup/Favorite.svg" alt="" height="32px">
+                            <img src="./imgs/popup/Time.svg" alt="" height="32px">
+                        </div>
+                        <div class="topic-popup--categories text-white pb-2">
+                            Thể loại: Phim tài liệu, côn trùng
+                        </div>
+                        <div class="text-white font-regular">
+                            Chương trình "Thế Giới Côn Trùng" là một cuộc hành trình khám phá thế giới đa dạng và hấp
+                            dẫn của côn
+                            trùng. Trong mỗi tập, người xem sẽ được tìm hiểu về các loài côn trùng khác nhau. Chương
+                            trình kết hợp
+                            thông tin khoa học với hình ảnh sống động, giúp người xem hiểu rõ hơn về tập tính, môi
+                            trường sống và
+                            tầm quan trọng của côn trùng trong tự nhiên.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end modal -->
+
+
+    <!-- Modal youtube -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg rounded-3 overflow-hidden" role="document">
+            <div class="modal-content">
+                <div class="modal-body bg-black">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end modal youtube -->
+
+    <div class="space" style="height: 400px"></div>
+    
+
+    <footer>
+        <!-- <div class="footer-bg">
+            <img src="./imgs/city.svg" alt="" />
+        </div> -->
+        <div class="container-fluid p-4">
+            <div class="bg-secondary rounded-4">
+                <div class="footer-title text-white px-9 pt-4 fs-3">
+                    KHAM PHA MUON LOAI /<br />EXCLUSIVELY BASED IN VIETNAM
+
+                </div>
+                <div class="row text-white px-9 py-4">
+                    <div class="col-5 d-flex flex-column">
+                        <span class="footer-title--menu fs-5 pb-2">Follow us on</span>
+                        <div class="d-flex">
+                            <a href="#" class="me-4">
+                                <img src="./imgs/instagram.svg" alt="" />
+                            </a>
+                            <a href="#" class="me-4">
+                                <img src="./imgs/facebook.svg" alt="" />
+                            </a>
+                            <a href="#" class="me-4">
+                                <img src="./imgs/youtube.svg" alt="" />
+                            </a>
+                            <a href="#" class="me-4">
+                                <img src="./imgs/tiktok.svg" alt="" />
+                            </a>
+                            <a href="#" class="me-4">
+                                <img src="./imgs/vieon.svg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center">
+                        <a href="#" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">About
+                            Us</a>
+                        <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Terms of
+                            Use</a>
+                        <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Privacy
+                            Policy</a>
+                        <a href="#"
+                            class="footer-sub font-regular text-white text-decoration-none text-center">Interest-Based
+                            Ads</a>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center">
+                        <a href="#" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Topics</a>
+                        <a href="#"
+                            class="footer-sub font-regular text-white text-decoration-none text-center">Animals</a>
+                        <a href="#"
+                            class="footer-sub font-regular text-white text-decoration-none text-center">Nature</a>
+                        <a href="#"
+                            class="footer-sub font-regular text-white text-decoration-none text-center">Human</a>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center">
+                        <a href="#" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Shop</a>
+                        <a href="#"
+                            class="footer-sub font-regular text-white text-decoration-none text-center">Limited-Time<br />Merchandise</a>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center">
+                        <a href="#" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Join Us</a>
+                        <a href="#"
+                            class="footer-sub font-regular text-white text-decoration-none text-center">Donate</a>
+                        <a href="#"
+                            class="footer-sub font-regular text-white text-decoration-none text-center">Subscription</a>
+                        <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Customer
+                            Service</a>
+                    </div>
+                </div>
+                <div
+                    class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start border-top-white border-top border-white px-9 pt-4 pb-5">
+                    <a href="#" class="d-flex align-items-center mb-lg-0 text-decoration-none">
+                        <img src="./imgs/kpml-logo-white.svg" alt="" />
+                    </a>
+                    <div class="col-12 col-lg-auto ms-lg-auto text-white">
+                        Copyright © 2001-2024 Kham Pha Muon Loai | Copyright © 2001-2024
+                        Student Project, NG. All rights reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slick-animation.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+
+</body>
+
+</html>

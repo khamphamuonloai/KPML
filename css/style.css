@@ -367,8 +367,60 @@ a.text-primary:hover {
 }
 
 .slick-list.draggable {
-    width: 97% !important;
+    width: 96% !important;
     overflow: hidden;
 }
 
 /* end test */
+
+/* popup */
+.topic-popup--bg_1 {
+    background: url('../imgs/popup/topic-popup-03.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_2 {
+    background: url('../imgs/popup/topic-popup-02.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_3 {
+    background: url('../imgs/popup/topic-popup-01.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_4 {
+    background: url('../imgs/popup/topic-popup-04.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_5 {
+    background: url('../imgs/popup/topic-popup-05.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_6 {
+    background: url('../imgs/popup/topic-popup-06.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_7 {
+    background: url('../imgs/popup/topic-popup-07.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_8 {
+    background: url('../imgs/popup/topic-popup-08.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_9 {
+    background: url('../imgs/popup/topic-popup-09.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_10 {
+    background: url('../imgs/popup/topic-popup-10.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_11 {
+    background: url('../imgs/popup/topic-popup-11.png') no-repeat;
+    background-size: cover;
+}
+.topic-popup--bg_12 {
+    background: url('../imgs/popup/topic-popup-12.png') no-repeat;
+    background-size: cover;
+}
+
+/* End popup */
