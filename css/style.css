@@ -68,8 +68,8 @@ body {
 }
 
 .about-us-s2__ic5 {
-    top: 8rem;
-    right: 28rem;
+    top: 16rem;
+    right: 60rem;
     rotate: 15deg;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .topic-videos__hero-2 {
-    background: url('../imgs/video-leo.jpg');
+    background: url('../imgs/topic-nature/video-leo.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -138,7 +138,7 @@ body {
 }
 
 .topic-videos__hero-3 {
-    background: url('../imgs/video-leo.jpg');
+    background: url('../imgs/topic-human/video-leo.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;

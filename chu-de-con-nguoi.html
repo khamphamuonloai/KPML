@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chủ đề con người</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header class="p-4 mb-3 pt-0 sticky-top">
+    <div class="container-fluid bg-white p-4 rounded-bottom-4 shadow-lg">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="./index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none">
+          <img src="./imgs/kpml-logo.svg" alt="" />
+        </a>
+        <ul class="nav col-12 col-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0 text-menu">
+          <li>
+            <a href="./about-us.html" class="nav-link px-4 text-primary link-danger">Về chúng tôi</a>
+          </li>
+          <li>
+            <a href="./chu-de.html" class="nav-link px-4 text-primary link-danger">Chủ đề</a>
+          </li>
+          <li>
+            <a href="./shop.html" class="nav-link px-4 text-primary link-danger">Cửa hàng</a>
+          </li>
+        </ul>
+
+        <a href="#" class="d-flex align-items-center ms-4">
+          <img src="./imgs/search.svg" alt="" width="24" height="24" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- edit -->
+
+  <section class="topic">
+    <div class="topic-header">
+      <img src="./imgs/title-conNguoi.svg" alt="" />
+    </div>
+    <!-- categories -->
+    <div class="topic-list row container-fluid mx-auto mt-5 row-cols-1 row-cols-md-3">
+      <div class="col topic-list-item"><a href="./chu-de-dong-vat.html" class="text-white text-decoration-none">
+          <div class="bg-primary p-3 rounded-4 ">
+            <div class="topic-img position-relative rounded-3 overflow-hidden">
+              <img src="./imgs/topic-img-03.png" alt="" width="100%" />
+              <div class="topic-title position-absolute w-100 top-0 fs-3 text-center p-3">Động Vật</div>
+            </div>
+            <div class="topic-subtitle px-4 py-3 font-regular text-center">Giới thiệu sự đa dạng của các loài động vật,
+              từ
+              hành vi và môi
+              trường sống đến các vấn đề bảo tồn, với kiến thức khoa
+              học và hình ảnh hấp dẫn.</div>
+          </div>
+        </a>
+      </div>
+      <div class="col topic-list-item"><a href="./chu-de-thien-nhien.html" class="text-white text-decoration-none">
+          <div class="bg-primary p-3 rounded-4 ">
+            <div class="topic-img position-relative rounded-3 overflow-hidden">
+              <img src="./imgs/topic-img-02.png" alt="" width="100%" />
+              <div class="topic-title position-absolute w-100 top-0 fs-3 text-center p-3">Thiên nhiên</div>
+            </div>
+            <div class="topic-subtitle px-4 py-3 font-regular text-center">Khám phá vẻ đẹp và sự phong phú của thiên
+              nhiên,
+              từ
+              hệ sinh thái đến hiện tượng tự nhiên, với thông tin khoa học và hình
+              ảnh ấn tượng.</div>
+          </div>
+        </a>
+      </div>
+      <div class="col topic-list-item"><a href="./chu-de-con-nguoi.html" class="text-white text-decoration-none">
+          <div class="bg-secondary p-3 rounded-4 ">
+            <div class="topic-img position-relative rounded-3 overflow-hidden">
+              <img src="./imgs/topic-img-01.png" alt="" width="100%" />
+              <div class="topic-title position-absolute w-100 top-0 fs-3 text-center p-3">Con người</div>
+            </div>
+            <div class="topic-subtitle px-4 py-3 font-regular text-center">Tìm hiểu sự phát triển và đa dạng của loài
+              người,
+              từ
+              lịch sử và văn hóa đến các thách thức hiện tại thông qua các buổi
+              phỏng vấn chân thực.</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- End categories -->
+
+
+    <div class="space" style="height: 100px"></div>
+
+
+    <div class="topic-header">
+      <img src="./imgs/title-video.svg" alt="" />
+    </div>
+    <!-- Hero topic -->
+    <div class="topic-videos mt-5">
+      <div class="topic-videos__hero-3 p-4 text-white d-flex flex-column justify-content-end">
+        <div class="fs-1 topic-video__hero--title text-uppercase font-bold">
+          <!-- Khám phá<br>tuyệt cảnh thuỵ sĩ -->
+          <img src="./imgs/topic-human/title-leo.png" alt="" width="30%">
+        </div>
+        <div class="topic-video__hero--btn mt-4 mb-5">
+          <button href="#" class="btn btn-light p-3 rounded-2 text-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Phát</button>
+          <button href="#" class="ms-2 btn btn-light p-3 rounded-2 text-primary">Thông tin khác</button>
+        </div>
+        <div class="topic-videos_hero-text mb-3">Gợi ý hôm nay</div>
+        <div class="topic-videos__hero--slider">
+          <ul class="favorites-slider overflow-hidden list-inline slick-slider">
+            <!-- slide item 1 -->
+            <li class="slide-item shadow-lg">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="block-images rounded-3 position-relative">
+                  <div class="img-box">
+                    <img src="./imgs/topic-human/topic-hero/topic-video-01.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="block-description d-none">
+                    <h6 class="iq-title">
+                      <a href="#"> Insidious </a>
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <!-- slide item 2 -->
+            <li class="slide-item shadow-lg">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="block-images rounded-3 position-relative">
+                  <div class="img-box">
+                    <img src="./imgs/topic-human/topic-hero/topic-video-02.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="block-description d-none">
+                    <h6 class="iq-title">
+                      <a href="#"> War </a>
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <!-- slide item 3 -->
+            <li class="slide-item shadow-lg">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="block-images rounded-3 position-relative">
+                  <div class="img-box">
+                    <img src="./imgs/topic-human/topic-hero/topic-video-03.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="block-description d-none">
+                    <h6 class="iq-title">
+                      <a href="#"> Five Feet Apart </a>
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <!-- slide item 4 -->
+            <li class="slide-item shadow-lg">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="block-images rounded-3 position-relative">
+                  <div class="img-box">
+                    <img src="./imgs/topic-human/topic-hero/topic-video-04.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="block-description d-none">
+                    <h6 class="iq-title">
+                      <a href="#"> Chhichore </a>
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <!-- slide item 5 -->
+            <li class="slide-item shadow-lg">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="block-images rounded-3 position-relative">
+                  <div class="img-box">
+                    <img src="./imgs/topic-human/topic-hero/topic-video-05.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="block-description d-none">
+                    <h6 class="iq-title">
+                      <a href="#"> Doctor Strange </a>
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <!-- slide item 6 -->
+            <li class="slide-item shadow-lg">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="block-images rounded-3 position-relative">
+                  <div class="img-box">
+                    <img src="./imgs/topic-human/topic-hero/topic-video-06.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="block-description d-none">
+                    <h6 class="iq-title">
+                      <a href="#"> Doctor Strange </a>
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <!-- slide item 7 -->
+            <li class="slide-item shadow-lg">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="block-images rounded-3 position-relative">
+                  <div class="img-box">
+                    <img src="./imgs/topic-human/topic-hero/topic-video-06.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="block-description d-none">
+                    <h6 class="iq-title">
+                      <a href="#"> Doctor Strange </a>
+                    </h6>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Hero topic -->
+
+
+    <!-- topic list 1 -->
+    <div class="topic-list px-4 mt-5">
+      <div class="topic-videos_hero-text topic-videos_hero-text--cursor mb-3 d-flex align-items-center column-gap-1"
+        data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="text-capitalize">""Hành Trình Nhân loại""</div>
+        <img src="./imgs/expand_down.svg" alt="" class="">
+      </div>
+      <div class="topic-videos__hero--slider">
+        <ul class="favorites-slider-2 overflow-hidden list-inline slick-slider">
+          <!-- slide item 1 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list/topic-list--bg-01.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 1 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 2 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list/topic-list--bg-02.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 2 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 3 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list/topic-list--bg-03.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 3 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 4 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list/topic-list--bg-04.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 4 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 5 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list/topic-list--bg-05.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 5 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 6 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list/topic-list--bg-06.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 6 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 7 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list/topic-list--bg-05.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 7 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- topic list 2 -->
+    <div class="topic-list px-4 mt-5">
+      <div class="topic-videos_hero-text topic-videos_hero-text--cursor mb-3 d-flex align-items-center column-gap-1"
+        data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="text-capitalize">“cư dân nam mỹ”</div>
+        <img src="./imgs/expand_down.svg" alt="" class="">
+      </div>
+      <div class="topic-videos__hero--slider">
+        <ul class="favorites-slider-2 overflow-hidden list-inline slick-slider">
+          <!-- slide item 1 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-2/topic-list--bg-01.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 1 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 2 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-2/topic-list--bg-02.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 2 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 3 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-2/topic-list--bg-03.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 3 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 4 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-2/topic-list--bg-04.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 4 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 5 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-2/topic-list--bg-05.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 5 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 6 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-2/topic-list--bg-06.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 6 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 7 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-2/topic-list--bg-05.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 7 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- topic list 3 -->
+    <div class="topic-list px-4 mt-5">
+      <div class="topic-videos_hero-text topic-videos_hero-text--cursor mb-3 d-flex align-items-center column-gap-1"
+        data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="text-capitalize">"Dấu Ấn Lịch Sử"</div>
+        <img src="./imgs/expand_down.svg" alt="" class="">
+      </div>
+      <div class="topic-videos__hero--slider">
+        <ul class="favorites-slider-2 overflow-hidden list-inline slick-slider">
+          <!-- slide item 1 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-3/topic-list--bg-01.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 1 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 2 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-3/topic-list--bg-02.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 2 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 3 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-3/topic-list--bg-03.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 3 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 4 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-3/topic-list--bg-04.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 4 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 5 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-3/topic-list--bg-05.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 5 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 6 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-3/topic-list--bg-06.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 6 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 7 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-3/topic-list--bg-05.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 7 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- topic list 4 -->
+    <div class="topic-list px-4 mt-5">
+      <div class="topic-videos_hero-text topic-videos_hero-text--cursor mb-3 d-flex align-items-center column-gap-1"
+        data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="text-capitalize">"Hồi Ức Lịch Sử"</div>
+        <img src="./imgs/expand_down.svg" alt="" class="">
+      </div>
+      <div class="topic-videos__hero--slider">
+        <ul class="favorites-slider-2 overflow-hidden list-inline slick-slider">
+          <!-- slide item 1 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-4/topic-list--bg-01.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 1 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 2 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-4/topic-list--bg-02.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 2 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 3 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-4/topic-list--bg-03.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 3 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 4 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-4/topic-list--bg-04.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 4 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 5 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-4/topic-list--bg-05.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 5 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 6 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-4/topic-list--bg-06.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 6 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- slide item 7 -->
+          <li class="slide-item shadow-lg">
+            <a href="#" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+              data-bs-target="#myModal">
+              <div class="block-images rounded-3 position-relative">
+                <div class="img-box">
+                  <img src="./imgs/topic-human/topic-list-4/topic-list--bg-05.png" class="img-fluid" alt="" />
+                </div>
+                <div class="block-description">
+                  <h6 class="iq-title">
+                    <a href="#" class="text-white text-decoration-none"> Tập 7 </a>
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="space" style="height: 100px"></div>
+
+    <!-- news -->
+    <div class="topic-header">
+      <img src="./imgs/title-news.svg" alt="" />
+    </div>
+    <div class="topic-news mx-4">
+
+      <!-- new-1 -->
+      <div class="topic-news-title text-secondary mt-4 fs-5">
+        Gợi ý hôm nay
+      </div>
+      <div class="topic-news-list row mt-3">
+        <div class="col"><a href="./chi-tiet-bai-viet.html">
+            <div class="topic-news-img rounded-3"
+              style="background-image: url('./imgs/topic-human/topic-news/news-bg-01.png'); height: 40vh; width: 100%; background-size: cover; background-position: center; background-repeat: no-repeat">
+            </div>
+            <div class="d-flex align-items-center column-gap-2 mt-3">
+              <img src="./imgs/topic-human/topic-news/ava.png" alt="" width="32px">
+              <span class="text-secondary">Đặng Thành An</span>
+              <div style="width: 4px; height: 4px; background-color: var(--pV1); border-radius: 50%;"></div>
+              <span class="text-primary font-regular"> 10 giờ trước</span>
+            </div>
+            <div class="fs-5 topic-news-title text-primary">Sư Tử: Vị Vua Của Savanna và Cuộc Sống Trong Bầy</div>
+            <div class="topic-news-description font-regular mt-1 text-primary">Mang đến cái nhìn sâu sắc về loài sư tử,
+              từ vai trò của chúng như những kẻ cai trị trong hệ sinh thái savanna đến cách sống và tương tác trong bầy
+              đàn. Chương trình khám phá sự mạnh mẽ, tập tính săn mồi, và cấu trúc xã hội của sư tử, đồng thời cung cấp
+              cái nhìn chi tiết về những thách thức mà chúng phải đối mặt trong môi trường hoang dã.</div>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="./chi-tiet-bai-viet.html">
+            <div class="topic-news-img rounded-3 align-content-end p-3"
+              style="background-image: url('./imgs/topic-human/topic-news/news-bg-02.png'); height: 108vh; width: 100%; background-size: cover; background-position: center; background-repeat: no-repeat">
+              <div class="d-flex align-items-center column-gap-2 text-white">
+                <img src="./imgs/topic-human/topic-news/ava.png" alt="" width="32px">
+                <span class="text-secondary">Đặng Thành An</span>
+                <div style="width: 4px; height: 4px; background-color: var(--white); border-radius: 50%;"></div>
+                <span class="font-regular"> 10 giờ trước</span>
+              </div>
+              <div class=" fs-5 topic-news-title text-white">Sư Tử: Vị Vua Của Savanna và Cuộc Sống Trong Bầy
+              </div>
+              <div class="topic-news-description font-regular mt-1 text-white">Mang đến cái nhìn sâu sắc về loài sư
+                tử, từ vai trò của chúng
+                như những kẻ cai trị trong hệ sinh thái savanna đến cách sống và tương tác trong bầy đàn. Chương trình
+                khám phá sự
+                mạnh mẽ, tập tính săn mồi, và cấu trúc xã hội của sư tử, đồng thời cung cấp cái nhìn chi tiết về những
+                thách thức mà
+                chúng phải đối mặt trong môi trường hoang dã.</div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <div class="news-detail-small mb-4"><a href="./chi-tiet-bai-viet.html">
+              <div class="topic-news-img rounded-3"
+                style="background-image: url('./imgs/topic-human/topic-news/news-bg-03.png'); height: 40vh; width: 100%; background-size: cover; background-position: center; background-repeat: no-repeat">
+              </div>
+              <div class="d-flex align-items-center column-gap-2 mt-3">
+                <img src="./imgs/topic-human/topic-news/ava.png" alt="" width="32px">
+                <span class="text-secondary">Đặng Thành An</span>
+                <div style="width: 4px; height: 4px; background-color: var(--pV1); border-radius: 50%;"></div>
+                <span class="text-primary font-regular"> 10 giờ trước</span>
+              </div>
+              <div class=" fs-5 topic-news-title text-primary">Sư Tử: Vị Vua Của Savanna và Cuộc Sống Trong Bầy</div>
+            </a>
+          </div>
+          <div class="news-detail-small mb-4"><a href="./chi-tiet-bai-viet.html">
+              <div class="topic-news-img rounded-3"
+                style="background-image: url('./imgs/topic-human/topic-news/news-bg-04.png'); height: 40vh; width: 100%; background-size: cover; background-position: center; background-repeat: no-repeat">
+              </div>
+              <div class="d-flex align-items-center column-gap-2 mt-3">
+                <img src="./imgs/topic-human/topic-news/ava.png" alt="" width="32px">
+                <span class="text-secondary">Đặng Thành An</span>
+                <div style="width: 4px; height: 4px; background-color: var(--pV1); border-radius: 50%;"></div>
+                <span class=" text-primary font-regular"> 10 giờ trước</span>
+              </div>
+              <div class=" fs-5 topic-news-title text-primary">Sư Tử: Vị Vua Của Savanna và Cuộc Sống Trong Bầy</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- shape -->
+      <div class="container-fluid p-4">
+        <img src="./imgs/topic-shape.svg" alt="" class="">
+      </div>
+
+      <!-- new-2 -->
+      <div class="topic-news-title text-secondary mt-4 fs-5">
+        Gợi ý từ Biên tập
+      </div>
+      <div class="topic-news-list">
+        <div class="row my-4">
+          <a href="./chi-tiet-bai-viet.html">
+            <div class="topic-news-img rounded-3 align-content-end p-3"
+              style="background-image: url('./imgs/topic-human/topic-news/news-bg-05.png'); height: 60vh; width: 100%; background-size: cover; background-position: center; background-repeat: no-repeat">
+              <div class="d-flex align-items-center column-gap-2 text-white">
+                <img src="./imgs/topic-human/topic-news/ava.png" alt="" width="32px">
+                <span class="text-secondary">Đặng Thành An</span>
+                <div style="width: 4px; height: 4px; background-color: var(--white); border-radius: 50%;"></div>
+                <span class=" font-regular"> 10 giờ trước</span>
+              </div>
+              <div class=" fs-5 topic-news-title text-white">Sư Tử: Vị Vua Của Savanna và Cuộc Sống Trong Bầy
+              </div>
+              <div class="topic-news-description font-regular mt-1 text-white">Mang đến cái nhìn sâu sắc về loài sư
+                tử, từ vai trò của chúng
+                như những kẻ cai trị trong hệ sinh thái savanna đến cách sống và tương tác trong bầy đàn. Chương trình
+                khám phá sự
+                mạnh mẽ, tập tính săn mồi, và cấu trúc xã hội của sư tử, đồng thời cung cấp cái nhìn chi tiết về những
+                thách thức mà
+                chúng phải đối mặt trong môi trường hoang dã.</div>
+            </div>
+          </a>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="news-detail-small mb-4"><a href="./chi-tiet-bai-viet.html">
+              <div class="topic-news-img rounded-3"
+                style="background-image: url('./imgs/topic-human/topic-news/news-bg-06.png'); height: 40vh; width: 100%; background-size: cover; background-position: center; background-repeat: no-repeat">
+              </div>
+              <div class="d-flex align-items-center column-gap-2 mt-3">
+                <img src="./imgs/topic-human/topic-news/ava.png" alt="" width="32px">
+                <span class="text-secondary">Đặng Thành An</span>
+                <div style="width: 4px; height: 4px; background-color: var(--pV1); border-radius: 50%;"></div>
+                <span class=" text-primary font-regular"> 10 giờ trước</span>
+              </div>
+              <div class=" fs-5 topic-news-title text-primary">Sư Tử: Vị Vua Của Savanna và Cuộc Sống Trong Bầy</div>
+            </a>
+          </div>
+          <div class="news-detail-small mb-4"><a href="./chi-tiet-bai-viet.html">
+              <div class="topic-news-img rounded-3"
+                style="background-image: url('./imgs/topic-human/topic-news/news-bg-07.png'); height: 40vh; width: 100%; background-size: cover; background-position: center; background-repeat: no-repeat">
+              </div>
+              <div class="d-flex align-items-center column-gap-2 mt-3">
+                <img src="./imgs/topic-human/topic-news/ava.png" alt="" width="32px">
+                <span class="text-secondary">Đặng Thành An</span>
+                <div style="width: 4px; height: 4px; background-color: var(--pV1); border-radius: 50%;"></div>
+                <span class=" text-primary font-regular"> 10 giờ trước</span>
+              </div>
+              <div class=" fs-5 topic-news-title text-primary">Sư Tử: Vị Vua Của Savanna và Cuộc Sống Trong Bầy</div>
+            </a>
+          </div>
+          <div class="news-detail-small mb-4"><a href="./chi-tiet-bai-viet.html">
+              <div class="topic-news-img rounded-3"
+                style="background-image: url('./imgs/topic-human/topic-news/news-bg-08.png'); height: 40vh; width: 100%; background-size: cover; background-position: center; background-repeat: no-repeat">
+              </div>
+              <div class="d-flex align-items-center column-gap-2 mt-3">
+                <img src="./imgs/topic-human/topic-news/ava.png" alt="" width="32px">
+                <span class="text-secondary">Đặng Thành An</span>
+                <div style="width: 4px; height: 4px; background-color: var(--pV1); border-radius: 50%;"></div>
+                <span class=" text-primary font-regular"> 10 giờ trước</span>
+              </div>
+              <div class=" fs-5 topic-news-title text-primary">Sư Tử: Vị Vua Của Savanna và Cuộc Sống Trong Bầy</div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- End news -->
+
+  </section>
+
+
+  <!-- Modal -->
+
+  <!-- modal 1 -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content topic-popup--bg_1">
+        <div class="modal-header border-bottom-0">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="topic-popup--action p-3">
+            <div class="space" style="height: 10rem">
+            </div>
+            <div class="d-flex column-gap-3 align-items-end py-4">
+              <img src="./imgs/popup/con-trung.png" alt="" width="400px">
+              <button type="button" class="btn btn-light video-btn" data-bs-toggle="modal"
+                data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
+                Phát
+              </button>
+              <img src="./imgs/popup/hd.svg" alt="" height="32px">
+              <img src="./imgs/popup/Favorite.svg" alt="" height="32px">
+              <img src="./imgs/popup/Time.svg" alt="" height="32px">
+            </div>
+            <div class="topic-popup--categories text-white pb-2">
+              Thể loại: Phim tài liệu, côn trùng
+            </div>
+            <div class="text-white font-regular">
+              Chương trình "Thế Giới Côn Trùng" là một cuộc hành trình khám phá thế giới đa dạng và hấp
+              dẫn của côn
+              trùng. Trong mỗi tập, người xem sẽ được tìm hiểu về các loài côn trùng khác nhau. Chương
+              trình kết hợp
+              thông tin khoa học với hình ảnh sống động, giúp người xem hiểu rõ hơn về tập tính, môi
+              trường sống và
+              tầm quan trọng của côn trùng trong tự nhiên.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal youtube -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg rounded-3 overflow-hidden" role="document">
+      <div class="modal-content">
+        <div class="modal-body bg-black">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>
+          <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+              allow="autoplay"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end modal youtube -->
+
+  <!-- End edit -->
+
+
+
+
+  <div class="space" style="height: 400px"></div>
+
+  <footer>
+    <div class="container-fluid p-4">
+      <div class="bg-secondary rounded-4">
+        <div class="footer-title text-white px-9 pt-4 fs-3 text-uppercase font-bold">
+          Khám phá muôn loài / <br>
+          ra đời độc quyền tại việt nam
+        </div>
+  
+        <div class="row text-white px-9 py-4">
+          <div class="col-5 d-flex flex-column">
+            <span class="footer-title--menu fs-5 pb-2">Theo dõi tại</span>
+            <div class="d-flex">
+              <a href="#" class="me-4">
+                <img src="./imgs/instagram.svg" alt="" />
+              </a>
+              <a href="#" class="me-4">
+                <img src="./imgs/facebook.svg" alt="" />
+              </a>
+              <a href="#" class="me-4">
+                <img src="./imgs/youtube.svg" alt="" />
+              </a>
+              <a href="#" class="me-4">
+                <img src="./imgs/tiktok.svg" alt="" />
+              </a>
+              <a href="#" class="me-4">
+                <img src="./imgs/vieon.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex flex-column align-items-center">
+            <a href="./about-us.html" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Về chúng
+              tôi</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Điều khoản</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Quyền riêng tư</a>
+          </div>
+          <div class="col d-flex flex-column align-items-center">
+            <a href="./chu-de.html" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Chủ đề</a>
+            <a href="./chu-de-dong-vat.html"
+              class="footer-sub font-regular text-white text-decoration-none text-center">Động vật</a>
+            <a href="./chu-de-thien-nhien.html"
+              class="footer-sub font-regular text-white text-decoration-none text-center">Thiên nhiên</a>
+            <a href="./chu-de-con-nguoi.html"
+              class="footer-sub font-regular text-white text-decoration-none text-center">Con người</a>
+          </div>
+          <div class="col d-flex flex-column align-items-center">
+            <a href="./shop.html" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Cửa hàng</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Sản phẩm giới
+              hạn</a>
+          </div>
+          <div class="col d-flex flex-column align-items-center">
+            <a href="#" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Đăng ký</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Donate</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Subscription</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Customer Service</a>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start border-top-white border-top border-white px-9 pt-4 pb-5">
+          <a href="#" class="d-flex align-items-center mb-lg-0 text-decoration-none">
+            <img src="./imgs/kpml-logo-white.svg" alt="" />
+          </a>
+          <div class="col-12 col-lg-auto ms-lg-auto text-white font-regular">
+            Copyright © 2001-2024 Kham Pha Muon Loai | Copyright © 2001-2024 Student Project, NG. All rights reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
