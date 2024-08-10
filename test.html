@@ -91,6 +91,74 @@
         </div>
     </div>
 
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Launch demo
+        modal</button>
+    <div class="modal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+    
+    
+                    <form id="form_add" class="row g-3 needs-validation" novalidate>
+                        <div class="col-6">
+                            <label for="" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="" value="Mark" required />
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-6">
+                            <label for="" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="" value="Otto" required />
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-12">
+                            <label for="" class="form-label">Username</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                <input type="text" class="form-control" id="" required />
+                                <div class="invalid-feedback">Please choose a username.</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <label for="" class="form-label">City</label>
+                            <input type="text" class="form-control" id="" required />
+                            <div class="invalid-feedback">Please provide a valid city.</div>
+                        </div>
+                        <div class="col-6">
+                            <label for="" class="form-label">State</label>
+                            <select class="form-select" id="" required />
+                            <option selected disabled value="">Choose...</option>
+                            <option>...</option>
+                            </select>
+                            <div class="invalid-feedback">Please select a valid state.</div>
+                        </div>
+                        <div class="col-6">
+                            <label for="" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="" required />
+                            <div class="invalid-feedback">Please provide a valid zip.</div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="" required />
+                                <label class="form-check-label" for="">Agree to terms and conditions</label>
+                                <div class="invalid-feedback">You must agree before submitting.</div>
+                            </div>
+                        </div>
+                    </form>
+    
+    
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" type="submit" form="form_add" type="submit">Submit form</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- end modal -->
 
 

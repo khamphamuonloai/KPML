@@ -117,3 +117,4 @@ document.getElementById('myModal').addEventListener('hide.bs.modal', () => {
   // Stop the video by resetting the source
   document.getElementById('video').src = videoSrc;
 });
+

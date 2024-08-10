@@ -79,7 +79,7 @@
                 hiện với ít nước và năng lượng hơn, đồng thời giảm thiểu lượng
                 khí thải carbon, góp phần bảo vệ môi trường.
               </div>
-              <button class="btn btn-light my-3 w-50 p-3 rounded-3" data-bs-toggle="modal" data-bs-target="#modalBuy">
+              <button class="btn btn-light my-3 w-50 p-3 rounded-3" data-bs-target="#buyModal" data-bs-toggle="modal">
                 MUA NGAY
               </button>
               <div class="p-3 font-regular border border-light rounded-4">
@@ -169,32 +169,56 @@
     </div>
   </section>
 
-  <div class="modal fade" id="modalBuy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- modal -->
+
+  <div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="buyModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="modalBuyLabel">New message</h1>
+          <h1 class="modal-title fs-4" id="buyModalLabel">Thông tin mua hàng</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <form>
             <div class="mb-3">
-              <label for="recipient-name" class="col-form-label">Recipient:</label>
-              <input type="text" class="form-control" id="recipient-name">
+              <label for="recipient-name" class="col-form-label">Họ và tên <span class="text-danger">*</span></label>
+              <input type="text" class="form-control border-top-0 border-end-0 border-start-0 rounded-0 border-primary" id="recipient-name">
             </div>
             <div class="mb-3">
-              <label for="message-text" class="col-form-label">Message:</label>
-              <textarea class="form-control" id="message-text"></textarea>
+              <label for="recipient-name" class="col-form-label">Số điện thoại <span class="text-danger">*</span></label>
+              <input type="text" class="form-control border-top-0 border-end-0 border-start-0 rounded-0 border-primary" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Địa chỉ <span class="text-danger">*</span></label>
+              <textarea class="form-control border-top-0 border-end-0 border-start-0 rounded-0 border-primary" id="message-text"></textarea>
             </div>
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Send message</button>
+          <button type="button" class="btn btn-primary" data-bs-target="#buyModalSuc" data-bs-toggle="modal">Đặt hàng</button>
         </div>
       </div>
     </div>
+  </div>
 
+  <div class="modal fade" id="buyModalSuc" aria-hidden="true" aria-labelledby="buyModalSucLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-success" id="buyModalSucLabel">Đặt hàng thành công</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-dark">
+          Thông tin mua hàng được gửi thành công. Chúng tôi sẽ sớm liên hệ cho bạn để xác nhận đơn hàng.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <!-- End edit -->
 
   <div class="space" style="height: 400px"></div>
