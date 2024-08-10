@@ -1,379 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Về chúng tôi</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/main.js"></script>
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-  </head>
 
-  <body>
-    <header class="p-4 mb-3 pt-0 sticky-top">
-      <div class="container-fluid bg-white p-4 rounded-bottom-4 shadow-lg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Về chúng tôi</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header class="p-4 mb-3 pt-0 sticky-top">
+    <div class="container-fluid bg-white p-4 rounded-bottom-4 shadow-lg">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="./index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none">
+          <img src="./imgs/kpml-logo.svg" alt="" />
+        </a>
+
+        <ul class="nav col-12 col-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0 text-menu">
+          <li>
+            <a href="./about-us.html" class="nav-link px-4 text-secondary link-danger">Về chúng tôi</a>
+          </li>
+          <li>
+            <a href="./chu-de.html" class="nav-link px-4 text-primary link-danger">Chủ đề</a>
+          </li>
+          <li>
+            <a href="./shop.html" class="nav-link px-4 text-primary link-danger">Cửa hàng</a>
+          </li>
+        </ul>
+
+        <a href="#" class="d-flex align-items-center ms-4">
+          <img src="./imgs/search.svg" alt="" width="24" height="24" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- edit -->
+
+  <section class="about-us">
+    <div class="about-us-header position-relative">
+      <div class="position-absolute about-us-header__title">
+        <img src="./imgs/abUs.svg" alt="" />
+      </div>
+      <div class="about-us-header__bg px-4">
+        <img src="./imgs/ab-bg-1.jpg" alt="" class="rounded-4 w-100" />
+      </div>
+    </div>
+    <div class="about-us-s2 py-5 position-relative">
+      <div class="about-us-s2__title w-50 position-absolute">
+        Chương trình "Khám Phá Muôn Loài" là một ví dụ tiêu biểu về sự kiên
+        trì và nỗ lực không ngừng nghỉ trong việc tạo ra một sản phẩm truyền
+        hình hấp dẫn và có giá trị giáo dục cao. Hành trình để tạo nên chương
+        trình này không hề dễ dàng và đầy thử thách.
+      </div>
+      <div class="about-us-s2__ic1 position-absolute">
+        <img src="./imgs/ic-flower.svg" alt="" width="160" />
+      </div>
+      <div class="about-us-s2__ic2 position-absolute">
+        <img src="./imgs/ic-pagoda.svg" alt="" width="160" />
+      </div>
+      <div class="about-us-s2__ic3 position-absolute">
+        <img src="./imgs/topic-3.svg" alt="" width="160" />
+      </div>
+      <div class="about-us-s2__ic4 position-absolute">
+        <img src="./imgs/topic-1.svg" alt="" width="160" />
+      </div>
+      <div class="about-us-s2__ic5 position-absolute">
+        <img src="./imgs/topic-5.svg" alt="" width="160" />
+      </div>
+      <div class="about-us-s2__frame overflow-hidden">
+        <img src="./imgs/ab-frame.png" alt="" class="" />
+      </div>
+      <div class="about-us-s2__text position-absolute">
+        <img src="./imgs/ab-danhDau.svg" alt="" class="w-75" />
+      </div>
+    </div>
+
+    <div class="about-us-mission d-flex flex-column align-items-center pt-9">
+      <div class="about-us-mission__title w-100 pb-4 d-flex align-items-center">
+        <div class="about-us-mission__title-line"></div>
+        <img src="./imgs/line-heading.svg" alt="" />
+        <div class="fs-4 text-center pt-1 px-4 about-us-mission__title-2">
+          OUR MISSON
+        </div>
+        <img src="./imgs/line-heading.svg" style="rotate: 180deg" alt="" class="opacity-0" />
+        <div class="about-us-mission__title-line opacity-0"></div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 container">
+        <div class="col d-flex flex-column align-items-center px-5">
+          <span class="pb-2">Khám Phá và Giới Thiệu Đa Dạng Sinh Học</span>
+          <span class="font-regular text-center">Chương trình khám phá và làm sáng tỏ sự đa dạng của các loài động
+            vật và thực vật trên toàn cầu, từ những loài phổ biến đến những
+            loài hiếm gặp và đặc biệt.</span>
+        </div>
+        <div class="col d-flex flex-column align-items-center px-5">
+          <span class="pb-2">Nâng Cao Nhận Thức và Giáo Dục</span>
+          <span class="font-regular text-center">Chương trình cung cấp kiến thức sâu rộng về các vấn đề bảo tồn,
+            ảnh hưởng của con người đến môi trường, và tầm quan trọng của việc
+            gìn giữ sự đa dạng sinh học.</span>
+        </div>
+        <div class="col d-flex flex-column align-items-center px-5">
+          <span class="pb-2">Khuyến Khích Hành Động Bảo Tồn</span>
+          <span class="font-regular text-center">Chương trình không chỉ thông tin mà còn khuyến khích khán giả
+            tham gia vào các hoạt động bảo vệ môi trường và hỗ trợ các sáng
+            kiến bảo tồn để tạo ra một tương lai bền vững cho thiên
+            nhiên.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us-frame2 overflow-hidden d-flex justify-content-end pt-9">
+      <img src="./imgs/ab-frame-2.png" alt="" class="w-100" />
+    </div>
+
+    <div class="about-us-mission d-flex flex-column align-items-center pt-9 overflow-hidden">
+      <div class="about-us-mission__title w-100 d-flex align-items-center">
+        <div class="about-us-mission__title-line opacity-0"></div>
+        <img src="./imgs/line-heading.svg" alt="" class="opacity-0" />
+        <div class="fs-4 text-center pt-1 px-4 about-us-mission__title-2">
+          CORE VALUES
+        </div>
+        <img src="./imgs/line-heading.svg" style="rotate: 180deg" alt="" class="" />
+        <div class="about-us-mission__title-line"></div>
+      </div>
+      <div class="row container">
+        <div class="col row row-cols-1 row-cols-md-2 g-5">
+          <div class="col d-flex flex-column px-5">
+            <img src="./imgs/topic-2.svg" alt="" class="pb-4 pe-4" width="35%" />
+            <span class="pb-2 text-secondary fs-5">Khám phá</span>
+            <span class="font-regular">Chương trình cung cấp thông tin chi tiết và chính xác về đa
+              dạng sinh học, từ động vật, thực vật đến con người, giúp khán
+              giả mở rộng kiến thức về thế giới xung quanh.</span>
+          </div>
+          <div class="col d-flex flex-column px-5">
+            <img src="./imgs/ic-chatLuong.svg" alt="" class="pb-4 pe-4" width="35%" />
+            <span class="pb-2 text-secondary fs-5">Chất lượng</span>
+            <span class="font-regular">Chất lượng các thước phim được quay với chất lượng cao, hình
+              ảnh rõ nét, âm thanh sắc nét, và được biên tập một cách tỉ mỉ để
+              mang đến trải nghiệm xem tốt nhất cho khán giả.</span>
+          </div>
+          <div class="col d-flex flex-column px-5">
+            <img src="./imgs/ic_giaoDuc.svg" alt="" class="pb-4 pe-4" width="35%" />
+            <span class="pb-2 text-secondary fs-5">Giáo Dục</span>
+            <span class="font-regular">Chương trình bao gồm các yếu tố giáo dục, nhằm nâng cao ý thức
+              cộng đồng về việc bảo vệ môi trường và duy trì sự cân bằng sinh
+              thái.</span>
+          </div>
+          <div class="col d-flex flex-column px-5">
+            <img src="./imgs/ic_thayDoi.svg" alt="" class="pb-4 pe-4" width="35%" />
+            <span class="pb-2 text-secondary fs-5">Thay Đổi</span>
+            <span class="font-regular">Nỗ lực tạo ra sự ảnh hưởng tích cực và thay đổi thông qua việc
+              có cái nhìn khác về hình ảnh nhận diện, nhằm mở rộng thêm các
+              tệp khán giả trẻ.</span>
+          </div>
+        </div>
+        <div class="col-3 align-self-end">
+          <img src="./imgs/coreValue-img.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End edit -->
+
+  <div class="space" style="height: 400px"></div>
+
+  <footer>
+    <div class="container-fluid p-4">
+      <div class="bg-secondary rounded-4">
+        <div class="footer-title text-white px-9 pt-4 fs-3">
+          KHAM PHA MUON LOAI /<br />EXCLUSIVELY BASED IN VIETNAM
+        </div>
+
+        <div class="row text-white px-9 py-4">
+          <div class="col-5 d-flex flex-column">
+            <span class="footer-title--menu fs-5 pb-2">Follow us on</span>
+            <div class="d-flex">
+              <a href="#" class="me-4">
+                <img src="./imgs/instagram.svg" alt="" />
+              </a>
+              <a href="#" class="me-4">
+                <img src="./imgs/facebook.svg" alt="" />
+              </a>
+              <a href="#" class="me-4">
+                <img src="./imgs/youtube.svg" alt="" />
+              </a>
+              <a href="#" class="me-4">
+                <img src="./imgs/tiktok.svg" alt="" />
+              </a>
+              <a href="#" class="me-4">
+                <img src="./imgs/vieon.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex flex-column align-items-center">
+            <a href="./about-us.html" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Về chúng
+              tôi</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Điều khoản</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Quyền riêng tư</a>
+          </div>
+          <div class="col d-flex flex-column align-items-center">
+            <a href="./chu-de.html" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Chủ đề</a>
+            <a href="./chu-de-dong-vat.html"
+              class="footer-sub font-regular text-white text-decoration-none text-center">Động vật</a>
+            <a href="./chu-de-thien-nhien.html"
+              class="footer-sub font-regular text-white text-decoration-none text-center">Thiên nhiên</a>
+            <a href="./chu-de-con-nguoi.html"
+              class="footer-sub font-regular text-white text-decoration-none text-center">Con người</a>
+          </div>
+          <div class="col d-flex flex-column align-items-center">
+            <a href="./shop.html" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Cửa hàng</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Sản phẩm giới
+              hạn</a>
+          </div>
+          <div class="col d-flex flex-column align-items-center">
+            <a href="#" class="footer-title--menu fs-5 pb-2 text-white text-decoration-none">Đăng ký</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Donate</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Subscription</a>
+            <a href="#" class="footer-sub font-regular text-white text-decoration-none text-center">Customer Service</a>
+          </div>
+        </div>
         <div
-          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
-        >
-          <a
-            href="./index.html"
-            class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none"
-          >
-            <img src="./imgs/kpml-logo.svg" alt="" />
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start border-top-white border-top border-white px-9 pt-4 pb-5">
+          <a href="#" class="d-flex align-items-center mb-lg-0 text-decoration-none">
+            <img src="./imgs/kpml-logo-white.svg" alt="" />
           </a>
-
-          <ul
-            class="nav col-12 col-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0 text-menu"
-          >
-            <li>
-              <a
-                href="./about-us.html"
-                class="nav-link px-4 text-secondary link-danger"
-                >Về chúng tôi</a
-              >
-            </li>
-            <li>
-              <a
-                href="./chu-de.html"
-                class="nav-link px-4 text-primary link-danger"
-                >Chủ đề</a
-              >
-            </li>
-            <li>
-              <a
-                href="./shop.html"
-                class="nav-link px-4 text-primary link-danger"
-                >Cửa hàng</a
-              >
-            </li>
-          </ul>
-
-          <a href="#" class="d-flex align-items-center ms-4">
-            <img src="./imgs/search.svg" alt="" width="24" height="24" />
-          </a>
-        </div>
-      </div>
-    </header>
-
-    <!-- edit -->
-
-    <section class="about-us">
-      <div class="about-us-header position-relative">
-        <div class="position-absolute about-us-header__title">
-          <img src="./imgs/abUs.svg" alt="" />
-        </div>
-        <div class="about-us-header__bg px-4">
-          <img src="./imgs/ab-bg-1.jpg" alt="" class="rounded-4 w-100" />
-        </div>
-      </div>
-      <div class="about-us-s2 py-5 position-relative">
-        <div class="about-us-s2__title w-50 position-absolute">
-          Chương trình "Khám Phá Muôn Loài" là một ví dụ tiêu biểu về sự kiên
-          trì và nỗ lực không ngừng nghỉ trong việc tạo ra một sản phẩm truyền
-          hình hấp dẫn và có giá trị giáo dục cao. Hành trình để tạo nên chương
-          trình này không hề dễ dàng và đầy thử thách.
-        </div>
-        <div class="about-us-s2__ic1 position-absolute">
-          <img src="./imgs/ic-flower.svg" alt="" width="160" />
-        </div>
-        <div class="about-us-s2__ic2 position-absolute">
-          <img src="./imgs/ic-pagoda.svg" alt="" width="160" />
-        </div>
-        <div class="about-us-s2__ic3 position-absolute">
-          <img src="./imgs/topic-3.svg" alt="" width="160" />
-        </div>
-        <div class="about-us-s2__ic4 position-absolute">
-          <img src="./imgs/topic-1.svg" alt="" width="160" />
-        </div>
-        <div class="about-us-s2__ic5 position-absolute">
-          <img src="./imgs/topic-5.svg" alt="" width="160" />
-        </div>
-        <div class="about-us-s2__frame overflow-hidden">
-          <img src="./imgs/ab-frame.png" alt="" class="" />
-        </div>
-        <div class="about-us-s2__text position-absolute">
-          <img src="./imgs/ab-danhDau.svg" alt="" class="w-75" />
-        </div>
-      </div>
-
-      <div class="about-us-mission d-flex flex-column align-items-center pt-9">
-        <div
-          class="about-us-mission__title w-100 pb-4 d-flex align-items-center"
-        >
-          <div class="about-us-mission__title-line"></div>
-          <img src="./imgs/line-heading.svg" alt="" />
-          <div class="fs-4 text-center pt-1 px-4 about-us-mission__title-2">
-            OUR MISSON
-          </div>
-          <img
-            src="./imgs/line-heading.svg"
-            style="rotate: 180deg"
-            alt=""
-            class="opacity-0"
-          />
-          <div class="about-us-mission__title-line opacity-0"></div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4 container">
-          <div class="col d-flex flex-column align-items-center px-5">
-            <span class="pb-2">Khám Phá và Giới Thiệu Đa Dạng Sinh Học</span>
-            <span class="font-regular text-center"
-              >Chương trình khám phá và làm sáng tỏ sự đa dạng của các loài động
-              vật và thực vật trên toàn cầu, từ những loài phổ biến đến những
-              loài hiếm gặp và đặc biệt.</span
-            >
-          </div>
-          <div class="col d-flex flex-column align-items-center px-5">
-            <span class="pb-2">Nâng Cao Nhận Thức và Giáo Dục</span>
-            <span class="font-regular text-center"
-              >Chương trình cung cấp kiến thức sâu rộng về các vấn đề bảo tồn,
-              ảnh hưởng của con người đến môi trường, và tầm quan trọng của việc
-              gìn giữ sự đa dạng sinh học.</span
-            >
-          </div>
-          <div class="col d-flex flex-column align-items-center px-5">
-            <span class="pb-2">Khuyến Khích Hành Động Bảo Tồn</span>
-            <span class="font-regular text-center"
-              >Chương trình không chỉ thông tin mà còn khuyến khích khán giả
-              tham gia vào các hoạt động bảo vệ môi trường và hỗ trợ các sáng
-              kiến bảo tồn để tạo ra một tương lai bền vững cho thiên
-              nhiên.</span
-            >
+          <div class="col-12 col-lg-auto ms-lg-auto text-white">
+            Copyright © 2001-2024 Kham Pha Muon Loai | Copyright © 2001-2024 Student Project, NG. All rights reserved
           </div>
         </div>
       </div>
+    </div>
+  </footer>
 
-      <div
-        class="about-us-frame2 overflow-hidden d-flex justify-content-end pt-9"
-      >
-        <img src="./imgs/ab-frame-2.png" alt="" class="w-100" />
-      </div>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
 
-      <div
-        class="about-us-mission d-flex flex-column align-items-center pt-9 overflow-hidden"
-      >
-        <div class="about-us-mission__title w-100 d-flex align-items-center">
-          <div class="about-us-mission__title-line opacity-0"></div>
-          <img src="./imgs/line-heading.svg" alt="" class="opacity-0" />
-          <div class="fs-4 text-center pt-1 px-4 about-us-mission__title-2">
-            CORE VALUES
-          </div>
-          <img
-            src="./imgs/line-heading.svg"
-            style="rotate: 180deg"
-            alt=""
-            class=""
-          />
-          <div class="about-us-mission__title-line"></div>
-        </div>
-        <div class="row container">
-          <div class="col row row-cols-1 row-cols-md-2 g-5">
-            <div class="col d-flex flex-column px-5">
-              <img
-                src="./imgs/topic-2.svg"
-                alt=""
-                class="pb-4 pe-4"
-                width="35%"
-              />
-              <span class="pb-2 text-secondary fs-5">Khám phá</span>
-              <span class="font-regular"
-                >Chương trình cung cấp thông tin chi tiết và chính xác về đa
-                dạng sinh học, từ động vật, thực vật đến con người, giúp khán
-                giả mở rộng kiến thức về thế giới xung quanh.</span
-              >
-            </div>
-            <div class="col d-flex flex-column px-5">
-              <img
-                src="./imgs/ic-chatLuong.svg"
-                alt=""
-                class="pb-4 pe-4"
-                width="35%"
-              />
-              <span class="pb-2 text-secondary fs-5">Chất lượng</span>
-              <span class="font-regular"
-                >Chất lượng các thước phim được quay với chất lượng cao, hình
-                ảnh rõ nét, âm thanh sắc nét, và được biên tập một cách tỉ mỉ để
-                mang đến trải nghiệm xem tốt nhất cho khán giả.</span
-              >
-            </div>
-            <div class="col d-flex flex-column px-5">
-              <img
-                src="./imgs/ic_giaoDuc.svg"
-                alt=""
-                class="pb-4 pe-4"
-                width="35%"
-              />
-              <span class="pb-2 text-secondary fs-5">Giáo Dục</span>
-              <span class="font-regular"
-                >Chương trình bao gồm các yếu tố giáo dục, nhằm nâng cao ý thức
-                cộng đồng về việc bảo vệ môi trường và duy trì sự cân bằng sinh
-                thái.</span
-              >
-            </div>
-            <div class="col d-flex flex-column px-5">
-              <img
-                src="./imgs/ic_thayDoi.svg"
-                alt=""
-                class="pb-4 pe-4"
-                width="35%"
-              />
-              <span class="pb-2 text-secondary fs-5">Thay Đổi</span>
-              <span class="font-regular"
-                >Nỗ lực tạo ra sự ảnh hưởng tích cực và thay đổi thông qua việc
-                có cái nhìn khác về hình ảnh nhận diện, nhằm mở rộng thêm các
-                tệp khán giả trẻ.</span
-              >
-            </div>
-          </div>
-          <div class="col-3 align-self-end">
-            <img src="./imgs/coreValue-img.svg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- End edit -->
-
-    <div class="space" style="height: 400px"></div>
-
-    <footer>
-      <!-- <div class="footer-bg">
-            <img src="./imgs/city.svg" alt="" />
-        </div> -->
-      <div class="container-fluid p-4">
-        <div class="bg-secondary rounded-4">
-          <div class="footer-title text-white px-9 pt-4 fs-3">
-            KHAM PHA MUON LOAI /<br />EXCLUSIVELY BASED IN VIETNAM
-          </div>
-
-          <div class="row text-white px-9 py-4">
-            <div class="col-5 d-flex flex-column">
-              <span class="footer-title--menu fs-5 pb-2">Follow us on</span>
-              <div class="d-flex">
-                <a href="#" class="me-4">
-                  <img src="./imgs/instagram.svg" alt="" />
-                </a>
-                <a href="#" class="me-4">
-                  <img src="./imgs/facebook.svg" alt="" />
-                </a>
-                <a href="#" class="me-4">
-                  <img src="./imgs/youtube.svg" alt="" />
-                </a>
-                <a href="#" class="me-4">
-                  <img src="./imgs/tiktok.svg" alt="" />
-                </a>
-                <a href="#" class="me-4">
-                  <img src="./imgs/vieon.svg" alt="" />
-                </a>
-              </div>
-            </div>
-            <div class="col d-flex flex-column align-items-center">
-              <a
-                href="#"
-                class="footer-title--menu fs-5 pb-2 text-white text-decoration-none"
-                >About Us</a
-              >
-              <a
-                href="#"
-                class="footer-sub font-regular text-white text-decoration-none text-center"
-                >Terms of Use</a
-              >
-              <a
-                href="#"
-                class="footer-sub font-regular text-white text-decoration-none text-center"
-                >Privacy Policy</a
-              >
-              <a
-                href="#"
-                class="footer-sub font-regular text-white text-decoration-none text-center"
-                >Interest-Based Ads</a
-              >
-            </div>
-            <div class="col d-flex flex-column align-items-center">
-              <a
-                href="#"
-                class="footer-title--menu fs-5 pb-2 text-white text-decoration-none"
-                >Topics</a
-              >
-              <a
-                href="#"
-                class="footer-sub font-regular text-white text-decoration-none text-center"
-                >Animals</a
-              >
-              <a
-                href="#"
-                class="footer-sub font-regular text-white text-decoration-none text-center"
-                >Nature</a
-              >
-              <a
-                href="#"
-                class="footer-sub font-regular text-white text-decoration-none text-center"
-                >Human</a
-              >
-            </div>
-            <div class="col d-flex flex-column align-items-center">
-              <a
-                href="#"
-                class="footer-title--menu fs-5 pb-2 text-white text-decoration-none"
-                >Shop</a
-              >
-              <a
-                href="#"
-                class="footer-sub font-regular text-white text-decoration-none text-center"
-                >Limited-Time<br />Merchandise</a
-              >
-            </div>
-            <div class="col d-flex flex-column align-items-center">
-              <a
-                href="#"
-                class="footer-title--menu fs-5 pb-2 text-white text-decoration-none"
-                >Join Us</a
-              >
-              <a
-                href="#"
-                class="footer-sub font-regular text-white text-decoration-none text-center"
-                >Donate</a
-              >
-              <a
-                href="#"
-                class="footer-sub font-regular text-white text-decoration-none text-center"
-                >Subscription</a
-              >
-              <a
-                href="#"
-                class="footer-sub font-regular text-white text-decoration-none text-center"
-                >Customer Service</a
-              >
-            </div>
-          </div>
-          <div
-            class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start border-top-white border-top border-white px-9 pt-4 pb-5"
-          >
-            <a
-              href="#"
-              class="d-flex align-items-center mb-lg-0 text-decoration-none"
-            >
-              <img src="./imgs/kpml-logo-white.svg" alt="" />
-            </a>
-            <div class="col-12 col-lg-auto ms-lg-auto text-white">
-              Copyright © 2001-2024 Kham Pha Muon Loai | Copyright © 2001-2024
-              Student Project, NG. All rights reserved
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
