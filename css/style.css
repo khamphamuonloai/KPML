@@ -117,6 +117,7 @@ body {
 
 .topic-list-item:hover .bg-primary {
     background-color: var(--p) !important;
+    transition: all 0.45s ease 0s;
 }
 
 /* bg topic hero */
@@ -451,5 +452,31 @@ li.slide-item .block-images {
 
 .home-topic:hover .bg-primary {
     background-color: var(--p) !important;
+    transition: all 0.45s ease 0s;
+}
+
+.home-topic:hover .home-topic-bg {
+    display: none;
+    transition: all 0.45s ease 0s;
+}
+
+.home-topic:hover .home-topic-title {
+    color: var(--p) !important;
+    transition: all 0.45s ease 0s;
+}
+
+.home-topic .home-topic-bg {
+    mix-blend-mode: lighten;
+}
+
+.about-us-mission__image img {
+    left: -20px;
+    mix-blend-mode: color-burn;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
 }
 
