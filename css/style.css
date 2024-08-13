@@ -450,6 +450,10 @@ li.slide-item .block-images {
     cursor: pointer;
 }
 
+.topic-videos_hero-text {
+    padding-left: 6px;
+}
+
 .home-topic:hover .bg-primary {
     background-color: var(--p) !important;
     transition: all 0.45s ease 0s;
@@ -486,4 +490,13 @@ li.slide-item .block-images {
 
 .vh-50 {
     height: 50vh !important;
+}
+
+.img-box img {
+    width: 100% !important;
+}
+
+.topic-popup--action img:first-child {
+    height: 20vh !important;
+    width: auto !important;
 }
